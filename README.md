@@ -10,6 +10,28 @@ My primary objective is to deeply understand the underlying architecture of LLMs
 
 - **Currently Watching:** [How LLMs Works? - Overview by Piyush Garg](https://www.youtube.com/watch?v=K45s2PgywvI&t=1158s)
 
+---
+
+## 🛠️ Environment Setup
+
+To replicate this research environment and run the LLM scripts, ensure you have **Python 3.8+** installed. Use the following commands in your terminal:
+
+### 1. Install/Upgrade Transformers
+
+This library from Hugging Face is the industry standard for working with pre-trained LLMs and Tokenizers.
+
+```bash
+pip3 install --upgrade transformers
+```
+
+### 2. Install PyTorch (The Core Engine)
+
+PyTorch handles the heavy mathematical lifting (Tensors and Matrix Multiplications) required for Vector Embeddings.
+
+```Bash
+pip3 install torch torchvision
+```
+
 ## 🧠 Core Concepts Mastered (Progress Tracker)
 
 ### 1. The Transformer Architecture
